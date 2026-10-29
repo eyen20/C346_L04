@@ -2,19 +2,21 @@ import React from 'react';
 import {View, Text, Image} from 'react-native';
 import {FontAwesome6} from '@expo/vector-icons';
 
-// Ex1: User-defined component Movie with properties title and year
-const Movie = ({title, year, icon_name, icon_color, poster}) => {
+// Ex1: User-defined component Boat with properties
+const Boat = ({name, description, icon_name, poster}) => {
     return (
         <View>
-            <Text></Text>
-            <Text>Movie:</Text>
-            <Text>
-                <FontAwesome6 name={icon_name} size={40} color={icon_color}/>
-                {title} {year}
+            <Text style={{ fontSize: 32, fontWeight: 'bold', color: 'grey' }}>
+                <FontAwesome6 name={icon_name} size={32}/>
+                {name}
             </Text>
-            <Image source={poster} style={{width:400, height:500}} />
+            <Text style={{ fontSize: 15}}>
+                {description}
+            </Text>
+            <Image source={poster} style={{width:400, height:400}} />
+            <Text></Text>
         </View>
     );
 };
 
-export default Movie;
+export default Boat;
