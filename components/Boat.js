@@ -6,8 +6,8 @@ import {FontAwesome6} from '@expo/vector-icons';
 const Boat = ({name, description, icon_name, poster}) => {
     return (
         <View>
-            <Text style={{ fontSize: 32, fontWeight: 'bold', color: 'grey' }}>
-                <FontAwesome6 name={icon_name} size={32}/>
+            <Text style={{ fontSize: 25, fontWeight: 'bold', color: 'grey' }}>
+                <FontAwesome6 name={icon_name} size={25}/>
                 {name}
             </Text>
             <Text style={{ fontSize: 15}}>
