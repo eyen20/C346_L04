@@ -1,11 +1,11 @@
 <!-- Create a file README.MD in L04Boats folder and paste following content in it -->
-# App Name
+# Boat App
 
-A brief description of the mobile application and its purpose.  
-(Example: This app allows users to manage tasks and sync data with a backend web service.)
+This app allows user to view the boat on sale.
 
 # ScreenShots of App
 Top page screenshot: <br>
-
+<img alt="TopScreenshot.png" height="600" src="Screenshots/TopScreenshot.png" width="300"/>
 
 Bottom page screenshot: <br>
+<img alt="BottomScreenshot.png" height="600" src="Screenshots/BottomScreenshot.png" width="300"/>
